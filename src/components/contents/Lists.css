@@ -1,0 +1,26 @@
+.list {
+    padding: 20px;
+    list-style-type: lower-roman;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    gap: 15px;
+
+}
+
+.clear {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+}

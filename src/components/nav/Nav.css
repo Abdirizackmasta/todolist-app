@@ -1,0 +1,29 @@
+form {
+    height: 200px;
+    background: #7e7e7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #e7e7;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        flex-direction: column;
+    }
+}
